@@ -1,18 +1,15 @@
 
 # COL106 LONG ASSIGNMENT - 2
 # SocialNet Simulator
-=================================
 
 This README explains how to build and run the `main.cpp` SocialNet simulator in this folder
 and documents the supported commands, expected behaviour, known limitations and quick tests.
 
 ## Requirements
-------------
 - A C++11-capable compiler (g++ or clang++). The code only uses language/library features available in
 	C++11 and later; compiling with C++11 or newer is recommended.
 
 ## Build
------
 Compile `main.cpp` with C++17. Example (macOS / Linux):
 
 ```sh
@@ -20,13 +17,11 @@ bash run.sh
 ```
 
 ## Run
----
 Run the produced `socialnet` binary and enter commands on stdin.
 
 
 
 ## Supported Commands (Syntax)
----------------------------
 All usernames and post contents are treated case-insensitively by the program.
 
 - **ADD_USER \<username\>**
