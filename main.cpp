@@ -646,6 +646,7 @@ int main(){
     cout << "Welcome to SocialNet! Enter you commands, or type 'EXIT' to quit." << endl;
     while (getline(cin, line)) {
         if (line=="EXIT"){
+            cout << "SESSION ENDED." << endl;
             break;
         }
         execute_command(posts,friend_list,line);
