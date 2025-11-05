@@ -643,7 +643,11 @@ int main(){
     friends friend_list;
     map<string,post> posts;
     string line;
+    cout << "Welcome to SocialNet! Enter you commands, or type 'EXIT' to quit." << endl;
     while (getline(cin, line)) {
+        if (line=="EXIT"){
+            break;
+        }
         execute_command(posts,friend_list,line);
     }
 }
