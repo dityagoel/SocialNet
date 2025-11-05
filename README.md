@@ -10,7 +10,7 @@ and documents the supported commands, expected behaviour, known limitations and 
 	C++11 and later; compiling with C++11 or newer is recommended.
 
 ## Build
-Compile `main.cpp` with C++17. Example (macOS / Linux):
+Compile `main.cpp` with C++11 or newer. Example (macOS / Linux):
 
 ```sh
 bash run.sh
@@ -22,7 +22,7 @@ Run the produced `socialnet` binary and enter commands on stdin.
 
 
 ## Supported Commands (Syntax)
-All usernames and post contents are treated case-insensitively by the program.
+All usernames and post contents are treated case-insensitively by the program. Type "EXIT" to exit the program.
 
 - **ADD_USER \<username\>**
 	- Adds a new user (no friends, no posts). Username must be non-empty.
